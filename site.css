@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(55,55,55);
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
