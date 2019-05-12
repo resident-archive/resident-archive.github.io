@@ -1,7 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 body {
   background-color: rgb(55,55,55);
-  display: grid;
-  height: 100vh;
-  margin: 0;
-  place-items: center center;
+  color: white;
+  padding: 150px;
+  padding-top: 100px;
+}
+
+* {
+  font-family: "Source Code Pro";
+}
+
+a.resident {
+  color: #ff0;
+}
+
+a.spotify {
+  color: #1DB954;
+}
+
+p {
+  padding: 40px 0;
+}
+
+.frame {
+}
+
+.center {
+  text-align: center;
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+span.resident {
+  color: black;
+  background-color: #ff0;
+}
+
+span.spotify {
+  color: white;
+  background-color: #1DB954;
+}
+
+.last-updated {
+  color: grey;
+  font-size: 13px;
+}
+
+.last-song {
+  padding-top: 30px;
+  text-align:center;
 }
