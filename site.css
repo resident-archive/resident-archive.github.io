@@ -3,8 +3,14 @@
 body {
   background-color: #2B2D30;
   color: white;
-  padding: 150px;
+  padding: 140px;
   padding-top: 100px;
+}
+
+h1 a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
 }
 
 ::selection {
@@ -19,6 +25,7 @@ body {
 }
 
 a.resident {
+  background-color: black;
   color: #ff0;
 }
 
@@ -30,23 +37,20 @@ p {
   padding: 40px 0;
 }
 
-.frame {
-}
-
 .center {
   text-align: center;
-  padding-left: 70px;
+  padding-left: 16%;
   padding-bottom: 30px;
 }
 
 span.resident {
-  color: #2B2D30;
-  background-color: #ff0;
+  color: #ff0;
+  background-color: black;
 }
 
 span.spotify {
-  color: white;
-  background-color: #1DB954;
+  color: #1DB954;
+  background-color: black;
 }
 
 .last-updated {
