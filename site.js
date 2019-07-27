@@ -10,8 +10,8 @@ var o = {
         document.getElementById("last-song").src = "https://open.spotify.com/embed/track/" + spotify_id;
 
         // Numbers
-        document.getElementById("total-ra-songs").innerHTML = json['total_ra_songs'];
-        document.getElementById("total-spotify-songs").innerHTML = json['total_spotify_songs'];
+        document.getElementById("total-ra-songs").innerHTML = json['total_ra_songs'].toLocaleString();
+        document.getElementById("total-spotify-songs").innerHTML = json['total_spotify_songs'].toLocaleString();
         document.getElementById("total-playlists").innerHTML = json['total_playlists'];
         document.getElementById("ratio-ra-spotify").innerHTML = json['ratio_ra_spotify'];
 

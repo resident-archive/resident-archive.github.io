@@ -62,3 +62,9 @@ span.spotify {
   padding-top: 30px;
   text-align:center;
 }
+
+svg.fa-chart-line {
+  position: relative;
+  top: 4px;
+  width: 18px;
+}
