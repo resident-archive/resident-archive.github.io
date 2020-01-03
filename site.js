@@ -18,6 +18,10 @@ var o = {
         // Time
         const time_ago = moment.unix(json['spotify_last_find_time']).fromNow();
         document.getElementById("spotify-last-find-time").innerHTML = time_ago;
+
+        // Update meta description
+        document.head.querySelector("[name~=description][content]").content += `
+          ${json['total_spotify_songs'].toLocaleString()}/${json['total_ra_songs'].toLocaleString()} songs added to ${json['total_playlists']} playlists.`;
       }
     );
 	}
