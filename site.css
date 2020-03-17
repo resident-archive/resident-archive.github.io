@@ -3,8 +3,6 @@
 body {
   background-color: #2B2D30;
   color: white;
-  padding: 140px;
-  padding-top: 100px;
 }
 
 h1 a {
@@ -30,6 +28,7 @@ a.resident {
 }
 
 a.spotify {
+  background-color: black;
   color: #1DB954;
 }
 
@@ -63,8 +62,45 @@ span.spotify {
   text-align:center;
 }
 
+#spotify-last-find-time {
+  font-style: italic;
+}
+
 svg.fa-chart-line {
   position: relative;
   top: 4px;
   width: 18px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  flex: 1;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  height: 60px;
+}
+
+.footer-box {
+  display: inline;
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
 }
